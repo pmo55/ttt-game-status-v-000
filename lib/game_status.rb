@@ -43,6 +43,7 @@ def over?(board)
 end
   end
   def winner(board)
-  won?(board).detect do {|i| i.is_a?(String)}
+if won?(board)
+  puts "O"
 end
   end
