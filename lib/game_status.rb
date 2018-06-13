@@ -44,6 +44,6 @@ end
   end
   def winner(board)
 if won?(board)
-  puts "O"
+  return "O"
 end
   end
