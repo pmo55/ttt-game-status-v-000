@@ -43,7 +43,7 @@ def over?(board)
 end
   end
   def winner(board)
-  if won?(board)
+  won?(board).detect do |i|
     
   end
   end
