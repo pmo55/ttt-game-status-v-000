@@ -44,6 +44,6 @@ end
   end
   def winner(board)
 if won?(board)
-  return board.detect
+  return board.detect do {|i| i.is_a?(String)}
 end
   end
