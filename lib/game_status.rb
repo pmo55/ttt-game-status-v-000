@@ -48,5 +48,4 @@ def winner(board)
   if won != nil
     return board[won[0]]
   end
-end
   end
